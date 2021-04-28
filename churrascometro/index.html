@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./styles/components/main-logo.css">
     <link rel="stylesheet" href="./styles/components/main-label.css">
     <link rel="stylesheet" href="./styles/components/main-input.css">
+    <link rel="stylesheet" href="./styles/components/main-button.css">
+    <link rel="stylesheet" href="./styles/components/main-result.css">
     <title>Churrascometro</title>
 </head>
 
@@ -32,6 +34,15 @@
             
             <label class="main-label" for="barbecue-duration">Duração do churrasco (hrs)</label>
             <input class="main-input" id="barbecue-duration" type="number">
+
+            <button class="main-button" onclick="calcBarbecue()">Calcular</button>
+
+            <section class="main-result">
+                <p class="text -first">Para o seu churrasco<br>você precisara de:</p>
+                <p class="text">2.4 kg de Carne</p>
+                <p class="text">18 Latas de Cerveja</p>
+                <p class="text">3 garrafas de 2l de bebida<br>(Refrigerante, água ou etc.)</p>
+            </section>
         </section>
     </div>
 </body>
