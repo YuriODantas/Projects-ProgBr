@@ -1,0 +1,10 @@
+.main-container{
+    display: flex;
+    justify-content: flex-end;
+    
+    min-height: 937px;
+
+    background-image: url("../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
