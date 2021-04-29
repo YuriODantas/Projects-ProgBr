@@ -1,5 +1,5 @@
 .main-result{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -22,8 +22,10 @@
 .main-result .text.-first{
     margin-bottom: 25px;
     font-weight: 700;
+    text-align: center;
 }
 
 .main-result .text{
     margin-bottom: 10px;
+    text-align: center;
 }
