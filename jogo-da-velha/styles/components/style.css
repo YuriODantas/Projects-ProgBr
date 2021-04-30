@@ -1,11 +1,41 @@
-.stage{
+.stage {
     text-align: center;
 }
 
-.square{
+.square {
     display: inline-block;
     width: 100px;
     height: 100px;
     background-color: beige;
     border: 1px solid #000;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F6E1";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\2694";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
