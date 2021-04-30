@@ -1,0 +1,11 @@
+.stage{
+    text-align: center;
+}
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid #000;
+}
