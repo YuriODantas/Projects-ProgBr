@@ -1,0 +1,31 @@
+.main-stage {
+    display: flex;
+    text-align: center;
+}
+
+.main-stage .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 120px;
+    height: 120px;
+    margin: 0px 20px 20px 0px;
+
+    background-color: #E4148C;
+    border: 2px solid #00000080;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px #00ACF8;
+}
+
+.main-stage .square .o:after {
+    content: "O";
+    font-size: 64px;
+    -webkit-text-stroke: 1px #00000080;
+}
+
+.main-stage .square .x:after {
+    content: "X";
+    font-size: 64px;
+    -webkit-text-stroke: 1px #00000080;
+}
