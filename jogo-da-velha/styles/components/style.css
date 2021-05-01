@@ -16,7 +16,7 @@
 
 .o:after {
     position: absolute;
-    content: "\1F6E1";
+    content: "O";
     font-size: 50px;
     line-height: 100px;
     top: 0;
@@ -31,7 +31,7 @@
 
 .x:after {
     position: absolute;
-    content: "\2694";
+    content: "X";
     font-size: 50px;
     line-height: 100px;
     top: 0;
