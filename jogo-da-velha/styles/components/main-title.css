@@ -1,0 +1,7 @@
+.main-title {
+    margin-top: 120px;
+    margin-bottom: 52px;
+    font-size: 96px;
+
+    text-shadow: 2px 0 0 #00000080, -2px 0 0 #00000080, 0 2px 0 #00000080, 0 -2px 0 #00000080, 1px 1px #00000080, -1px -1px 0 #00000080, 1px -1px 0 #00000080, -1px 1px 0 #00000080, -5px -5px 5px #00ADFB, 5px 5px 5px #B83273;
+}
