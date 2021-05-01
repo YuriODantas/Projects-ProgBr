@@ -1,9 +1,12 @@
 .main-stage {
+    width: 100vw;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-stage .square {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
