@@ -1,7 +1,8 @@
 .main-box {
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
     width: 700px;
@@ -13,6 +14,7 @@
 }
 
 .main-box .logo{
-    transform: translateY(-250px);
+    position: absolute;
+    top: -77px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
 }
