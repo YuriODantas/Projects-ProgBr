@@ -1,0 +1,13 @@
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 700px;
+    height: 500px;
+    
+    background: linear-gradient(57.35deg, #1F95FD 0%, #4FE8E4 99.07%);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
