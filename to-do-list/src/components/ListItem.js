@@ -15,8 +15,8 @@ function ListItem(props) {
             <Card className={props.item.done ? "done item" : "item"}>
                 {props.item.text}
                 <div>
-                    <button onClick={() => { props.onDone(props.item) }}><DoneImg done={props.item.done} /></button>
-                    <button onClick={() => { props.onItemDeleted(props.item) }}><img src="./assets/bin.svg" alt="delete" /></button>
+                    <button className='buttonCard' onClick={() => { props.onDone(props.item) }}><DoneImg done={props.item.done} /></button>
+                    <button className='buttonCard' onClick={() => { props.onItemDeleted(props.item) }}><img src="./assets/bin.svg" alt="delete" /></button>
                 </div>
             </Card>
         </li>

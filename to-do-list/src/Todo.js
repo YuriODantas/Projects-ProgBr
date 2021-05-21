@@ -49,15 +49,23 @@ function Todo() {
     }
 
     return (
-        <div className="container">
-            <header className='header'>
-                <h1>Todo</h1>
-                <button className='addButton' onClick={() => { setShowModal(true) }}>+</button>
-            </header>
-            <List onDone={onDone} onItemDeleted={onItemDeleted} items={items} />
-            <Modal show={showModal} onHideModal={onHideModal}>
-                <TodoForm onAddItem={onAddItem} />
-            </Modal>
+        <div style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/background-1.jpg'})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            width: '100vw',
+            height: '100vh'
+        }}>
+            <div className="container">
+                <header className='header'>
+                    <h1>Todo</h1>
+                    <button className='addButton' onClick={() => { setShowModal(true) }}>+</button>
+                </header>
+                <List onDone={onDone} onItemDeleted={onItemDeleted} items={items} />
+                <Modal show={showModal} onHideModal={onHideModal}>
+                    <TodoForm onAddItem={onAddItem} />
+                </Modal>
+            </div>
         </div>
     )
 }
