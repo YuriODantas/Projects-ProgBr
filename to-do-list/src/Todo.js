@@ -3,23 +3,31 @@ import './Todo.css'
 
 function Todo() {
 
-    const [text, setText] = useState("")
+    const [text, setText] = useState("");
+    const [items, setItems] = useState([]);
 
     function handleChange(event) {
         let newText = event.target.value;
-        setText(newText)
+        setText(newText);
+    }
+    function addItem(event) {
+        event.preventDefault();
+        if (text) {
+            setItems([...items, text]);
+            setText("");
+        }
     }
 
     return (
         <div className="container">
             <h1>Todo</h1>
             <form>
-                <input onChange={handleChange} type="text" />
-                <button>Add</button>
+                <input onChange={handleChange} type="text" value={text} />
+                <button onClick={addItem}>Add</button>
             </form>
 
             <ul>
-                <li>{text}</li>
+                {items.map(item => <li>{item}</li>)}
             </ul>
         </div>
     )
