@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function TodoForm(props) {
-
     const [text, setText] = useState("");
 
     function handleChange(event) {
@@ -22,7 +21,6 @@ function TodoForm(props) {
             <input onChange={handleChange} type="text" value={text} />
             <button onClick={addItem}>Add</button>
         </form>
-
     )
 }
 

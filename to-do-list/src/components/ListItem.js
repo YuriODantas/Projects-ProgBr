@@ -19,7 +19,8 @@ function ListItem(props) {
                     <button onClick={() => { props.onItemDeleted(props.item) }}><img src="./assets/bin.svg" alt="delete" /></button>
                 </div>
             </Card>
-        </li>)
+        </li>
+    )
 }
 
 export default ListItem;
